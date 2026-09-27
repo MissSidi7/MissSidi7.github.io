@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidiqah Nazier | IT Student</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #171717;
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 19px;
+            color: #d6d6d6;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            z-index: 10;
+        }
+
+        nav a {
+            color: #222;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #6f42c1;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 55px 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #171717;
+        }
+
+        .about {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .skill-box {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        .skill-box h3 {
+            margin-bottom: 10px;
+            color: #6f42c1;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #6f42c1;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .education {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        .contact {
+            text-align: center;
+            background: #171717;
+            color: white;
+            border-radius: 12px;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact a {
+            color: white;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sidiqah Nazier</h1>
+        <p>Information Technology Student | Progressing to 3rd Year</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <p>
+                I am an Information Technology student who has completed my
+                second year of study and is progressing into my third year.
+                Through my academic projects, I have gained practical
+                experience in programming, mobile application development,
+                databases, networking, cybersecurity, cloud technologies
+                and software development.
+            </p>
+
+            <br>
+
+            <p>
+                I am interested in developing my technical skills and gaining
+                practical industry experience while continuing my studies.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill-box">
+                <h3>Programming</h3>
+                <p>Java, C++, Python, Procedural Programming, Data Structures and Algorithms</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Application Development</h3>
+                <p>Android Studio, Mobile Application Development, HTML, CSS</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Databases</h3>
+                <p>SQL, MongoDB, Neo4j, Database Systems</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Networking & Security</h3>
+                <p>Cisco Packet Tracer, Computer Networks, Network Security, Windows Server</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Operating Systems</h3>
+                <p>Linux-based Operating Systems, Windows Server Management</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Cloud & Tools</h3>
+                <p>AWS, Microsoft Office, Cloud-Based Technologies, IT Project Management</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Academic Projects</h2>
+
+        <p style="margin-bottom: 25px;">
+            Selected projects completed during my second year of Information Technology studies.
+        </p>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>Transport Calculator</h3>
+                <p>
+                    An Android application developed using Java and Android Studio.
+                    The application calculates transportation costs using distance,
+                    cost per kilometre and travel days. The project also includes
+                    input validation, SQLite database storage and results reporting.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Database Systems</h3>
+                <p>
+                    Academic database projects involving database design,
+                    SQL and working with database technologies.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Computer Networks & Security</h3>
+                <p>
+                    Networking and security projects involving network design,
+                    configuration, security concepts and Cisco Packet Tracer.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Python Programming</h3>
+                <p>
+                    Programming projects using Python, including programming
+                    fundamentals, problem solving and data structures and algorithms.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Cloud-Based Technologies</h3>
+                <p>
+                    Academic work exploring cloud technologies, cloud services
+                    and the use of cloud-based computing environments.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Software & Security Engineering</h3>
+                <p>
+                    Academic projects covering software development processes,
+                    software architecture, security engineering and quality assurance.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Web Server Management</h3>
+                <p>
+                    Practical work involving web server management,
+                    configuration and related server technologies.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>AI Ethics & Privacy</h3>
+                <p>
+                    Academic work exploring ethical considerations, privacy
+                    and responsible use of artificial intelligence.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>IT Project Management</h3>
+                <p>
+                    Projects involving IT project planning, scheduling,
+                    project management techniques and software project development.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education">
+            <h3>Information Technology</h3>
+            <p><strong>Eduvos</strong></p>
+            <p>Completed Year 2 | Progressing to Year 3</p>
+
+            <br>
+
+            <p>
+                Relevant study areas include programming, databases, networking,
+                cybersecurity, mobile application development, cloud technologies,
+                software engineering, Python, data structures and IT project management.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                I am interested in entry-level IT opportunities,
+                internships and opportunities where I can develop my
+                technical skills and gain practical experience.
+            </p>
+
+            <br>
+
+            <p>
+                Email:
+                <a href="mailto:sidiqahnazier07@gmail.com">
+                    sidiqahnazier07@gmail.com
+                </a>
+            </p>
+
+            <br>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/MissSidi7" target="_blank">
+                    github.com/MissSidi7
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sidiqah Nazier | Information Technology Student</p>
+    </footer>
+
+</body>
+</html>
